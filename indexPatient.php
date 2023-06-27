@@ -12,7 +12,7 @@ if ($connection->connect_error) {
 }
 
 //testing to see if connected to db
-echo "You are successfully connectd to the Patient Database!";
+//echo "You are successfully connectd to the Patient Database!";
 ?>
 
 

@@ -11,7 +11,7 @@
   <h1>Add a new patient</h1>
   <p><strong>Enter the patient information </strong></p>
   <form action="addPatient.php" method="post">
-    <table width="70%">
+    <table width="30%">
       <tr>
         <td>Patient Name: </td>
         <td><input type="text" name="pname"></td>

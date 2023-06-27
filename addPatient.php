@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Add a new Patient</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add new patient</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -22,7 +26,7 @@
      }
 
      //testing to see if connected to db
-     echo "You are successfully connected to the Patient Database!". "<br>" ."<br>";
+     //echo "You are successfully connected to the Patient Database!". "<br>" ."<br>";
 
    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
        // Retrieve the form data
@@ -116,7 +120,10 @@
    ?>
 
 
-<a href="indexPatient.php">Home</a>
+<br/><br/>
+<!-- <a href="indexPatient.php">Home</a> -->
+<a href="indexPatient.php" type="button" class="btn btn-primary">Home</a>
+
 
 </body>
 
